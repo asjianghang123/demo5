@@ -1,0 +1,213 @@
+    {
+      "current": 1,
+      "rowCount": 10,
+      "rows": [
+        {
+          "id": 19,
+          "sender": "123@test.de",
+          "received": "2014-05-30T22:15:00"
+        },
+        {
+          "id": 24,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 34,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 44,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 54,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 64,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 74,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 84,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 94,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 104,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 114,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 124,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 134,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 144,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 154,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 164,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 174,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 184,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 194,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 204,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 214,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 224,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 234,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 244,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 254,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 264,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 274,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 284,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 294,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 304,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 314,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 324,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 334,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 344,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 354,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 364,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 374,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 384,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 394,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 404,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        },
+        {
+          "id": 414,
+          "sender": "123@test.de",
+          "received": "2014-05-30T20:15:00"
+        }
+      ],
+      "total": 1123
+    }
+

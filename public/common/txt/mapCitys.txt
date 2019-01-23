@@ -1,0 +1,5 @@
+南通市=nantong
+常州市=changzhou
+无锡市=wuxi
+苏州市=suzhou
+镇江市=zhenjiang

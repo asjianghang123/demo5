@@ -1,0 +1,335 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
+// Route::get('/switchSite', 'SwitchController@getSwitchSite');
+// Route::get('/switchData', 'SwitchController@getSwitchData');
+
+Route::get('/getYellowColor', 'SwitchController@getYellowColor');
+Route::get('/getYellowColorIn', 'SwitchController@getYellowColorIn');
+
+// Route::get('/fdfdh', 'SwitchController@getfdfdh');
+// Route::get('/switchDetail', 'SwitchController@getSwitchDetail');
+// Route::get('/handoverin', 'SwitchController@getHandOverIn');
+// Route::get('/handOverInDetail', 'SwitchController@getHandOverInDetail');
+
+// Route::get('/switchDefineDetail', 'SwitchController@getSwitchDefineDetail');
+
+// Route::get('/switchDataDefine', 'SwitchController@getSwitchDataDefine');
+
+// Route::get('/switchOutTable', 'SwitchController@getSwitchOutTable');
+// Route::get('/switchOutTableIn', 'SwitchController@getSwitchOutTableIn');
+
+// Route::get('/RRCusers', 'SwitchController@getRRCusers');
+// Route::get('/wireLessLost', 'SwitchController@getWireLessLost');
+// Route::get('/PUSCHInterfere', 'SwitchController@getPUSCHInterfere');
+
+// Route::get('/PUSCHInterferein', 'SwitchController@getPUSCHInterferein');
+// Route::get('/handoverSuccin', 'SwitchController@getHandoverSuccin');
+// Route::get('/RRCusersin', 'SwitchController@getRRCusersin');
+// Route::get('/wireLessLostin', 'SwitchController@getWireLessLostin');
+
+// Route::get('/badCellOverview', 'BadCellController@getBadCellData');
+// Route::get('/badCellOverview/drillDownDonutPie', 'BadCellController@getDrillDownDonutPie');
+// Route::get('/interfereOverview', 'InterfereController@getInterfereData');
+// Route::get('/WeakCoverOverview', 'WeakCoverOverviewController@getWeakCoverData');
+// Route::get('/overlapCoverview', 'WeakoverlapCoverOverviewController@getOverlapCoverData');
+// Route::get('/currentAlarm', 'AlarmController@getCurrentAlarm');
+// Route::get('/currentAlarm/drillDownDonutPie', 'AlarmController@getDrillDownDonutPie');
+// Route::get('/historyAlarm', 'AlarmController@getHistoryAlarm');
+// Route::get('/historyAlarm/historyAlarmDateData', 'AlarmController@getHistoryAlarmDateData');
+// Route::get('/historyAlarm/drillDownDonutPie', 'AlarmController@getHistoryDrillDownDonutPie');
+
+//lijian
+// Route::get('lowAccess', 'NetworkChartsController@getLowAccess');
+// Route::get('lowAccessTrend', 'NetworkChartsController@getLowAccessTrend');
+
+// Route::get('highLost', 'NetworkChartsController@getHighLost');
+// Route::get('highLostTrend', 'NetworkChartsController@getHighLostTrend');
+
+// Route::get('badHandover', 'NetworkChartsController@getBadHandover');
+// Route::get('badHandoverTrend', 'NetworkChartsController@getBadHandoverTrend');
+
+
+// Route::get('erabSuccess', 'NetworkChartsController@getErabSuccessHandover');
+// Route::get('erabSuccessTrend', 'NetworkChartsController@getErabSuccessHandoverTrend');
+
+// Route::get('erabLost', 'NetworkChartsController@getErabsLost');
+// Route::get('erabLostTrend', 'NetworkChartsController@getErabsLostTrend');
+
+// Route::get('wirelessSuccess', 'NetworkChartsController@getWirelessSucc');
+// Route::get('wirelessSuccessTrend', 'NetworkChartsController@getWirelessSuccTrend');
+
+// Route::get('volteHandover', 'NetworkChartsController@getVolteHandover');
+// Route::get('volteHandoverTrend', 'NetworkChartsController@getVolteHandoverTrend');
+
+
+// Route::get('chart1WireSucc', 'NetworkChartsController@getChart1WireSucc');
+// Route::get('chart1WireSuccTrend', 'NetworkChartsController@getChart1WireSuccTrend');
+
+// Route::get('chart1ErbLost', 'NetworkChartsController@getChart1ErbLost');
+// Route::get('chart1ErbLostTrend', 'NetworkChartsController@getChart1ErbLostTrend');
+
+// Route::get('chart1VideoSucc', 'NetworkChartsController@getChart1VideoSucc');
+// Route::get('chart1VideoSuccTrend', 'NetworkChartsController@getChart1VideoSuccTrend');
+
+// Route::get('chart1EsrvccHander', 'NetworkChartsController@getChart1EsrvccHander');
+// Route::get('chart1EsrvccHanderTrend', 'NetworkChartsController@getChart1EsrvccHanderTrend');
+
+//自定义Y轴
+// Route::get('lowAccessDefine', 'NetworkChartsController@getLowAccessDefine');
+// Route::get('highLostDefine', 'NetworkChartsController@getHighLostDefine');
+// Route::get('badHandoverDefine', 'NetworkChartsController@getBadHandoverDefine');
+// Route::get('lowAccessTrendMore', 'NetworkChartsController@getLowAccessTrendMore');
+// Route::get('highLostTrendMore', 'NetworkChartsController@getHighLostTrendMore');
+// Route::get('badHandoverTrendMore', 'NetworkChartsController@getBadHandoverTrendMore');
+
+
+//lijian
+// Route::get('/threeKeysGauge', 'NetworkChartsController@getThreeKeysGauge');
+// Route::get('/volteGauge', 'NetworkChartsController@getvolteGauge');
+// Route::get('/videosGauge', 'NetworkChartsController@getVideoGauge');
+
+
+// Route::get('/badCell/lowStartTime', 'BadCellAnalysis\BadCellController@getlowTime');
+// Route::get('/badCell/setHighlostTime', 'BadCellAnalysis\BadCellController@getHighLostTime');
+// Route::get('/badCell/setBadHandoverTime', 'BadCellAnalysis\BadCellController@getBadHandoverTime');
+// Route::get('/badCell/getAllCity', 'BadCellAnalysis\BadCellController@getAllCity');
+// Route::get('/badCell/templateQuery', 'BadCellAnalysis\BadCellController@templateQuery');
+// Route::get('/badCell/getalarmWorstCell', 'BadCellAnalysis\BadCellController@getalarmWorstCell');
+// Route::get('/badCell/getChartData', 'BadCellAnalysis\BadCellController@getChartData');
+// Route::get('/badCell/getweakCoverageCell', 'BadCellAnalysis\BadCellController@getWeakCoverageCell');
+
+
+// Route::get('/badCell/getLowAccessCellData', 'BadCellAnalysis\BadCellController@getLowAccessCellData');
+
+//0524
+// Route::get('/badCell/getCounterLoseResultDistribution', 'BadCellAnalysis\BadCellController@getCounterLoseResultDistribution');
+
+
+// Route::get('/alarmNum', 'BadCellAnalysis\BadCellController@getAlarmNum');
+// Route::get('/overlapCeakCoverNum', 'BadCellAnalysis\BadCellController@getOverlapCeakCoverNum');
+
+/*Route::get('/badCell/getHighLostCellData', 'BadCellAnalysis\BadCellController@getHighLostCellData');
+Route::get('/badCell/getBadHandoverCellData', 'BadCellAnalysis\BadCellController@getBadHandoverCellData');*/
+
+// Route::get('/badCell/getInterfereAnalysis', 'BadCellAnalysis\BadCellController@getInterfereAnalysis');
+
+
+//lijian 0315
+// Route::get('/badCell/getCellAlarmClassifyTable', 'BadCellAnalysis\BadCellController@getCellAlarmClassifyTable');
+// Route::get('/badCell/getErbsAlarmClassifyTable', 'BadCellAnalysis\BadCellController@getErbsAlarmClassifyTable');
+// Route::get('/badCell/getCellAlarmClassify', 'BadCellAnalysis\BadCellController@getCellAlarmClassify');
+// Route::get('/badCell/getErbsAlarmClassify', 'BadCellAnalysis\BadCellController@getErbsAlarmClassify');
+//zhujj参数
+
+// Route::get('/badCell/getBaselineCheckData', 'BadCellAnalysis\BadCellController@getBaselineCheckData');
+
+
+Route::get('/weakCoverDate', 'WeakCoverController@getDate');
+// Route::get('/weakCoverCells', 'WeakCoverController@getCells');
+// Route::get('/weakCoverCharts', 'WeakCoverController@getCharts');
+Route::get('/weakCoverDatee', 'WeakCoverController@weakCoverDatee');
+
+
+// Route::get('/interCloudCells', 'InterCloudController@getCells');
+// Route::get('/interCloudChannel', 'InterCloudController@getChannels');
+// Route::get('/interfepointDate', 'InterCloudController@interfepointDate');
+
+//lj
+
+// Route::get('/overlapCoverPointCells', 'WeakCoverController@getOverlapCoverPointCells');
+// Route::get('/overlapCoverPointDate', 'WeakCoverController@overlapCoverPointDate');
+// Route::post('/overlapCoverPoint/getCell', 'WeakCoverController@getCell');
+
+
+Route::get('/interPointCloudChannel', 'InterCloudController@getPointChannels');
+// Route::get('/interPointCloudCells', 'InterCloudController@getCells');
+// Route::post('/interPointCloud/getCell', 'InterCloudController@getCell');
+
+
+
+// Route::get('/kpiExport', 'Exporter\KpiExporter@export');
+// Route::get('/scaleExport', 'Exporter\ScaleExporter@export');
+//lijian
+// Route::get('/weakExport', 'Exporter\NetworkChartsExporter@export');
+
+
+// Route::get('/weakCoverCloudCells', 'InterCloudController@getweakCoverCells');
+
+
+// Route::get('/SearchWeakCoverRatio', 'WeakCoverRatioController@searchWeakCoverRatio');
+// Route::get('/startTime', 'WeakCoverRatioController@startTime');
+
+
+
+// Route::post('/getRSRPdate', 'RSRPAnalysisController@getRSRPdate');
+// Route::post('/RSRPAnalysisdata', 'RSRPAnalysisController@getRSRPAnalysisData');
+
+
+// Route::get('/getCitys', 'WeakCoverRateController@getCitys');
+// Route::get('/getMroWeakCoverageDataHeader', 'WeakCoverRateController@getMroWeakCoverageDataHeader');
+// Route::get('/getMroWeakCoverageData', 'WeakCoverRateController@getMroWeakCoverageData');
+// Route::get('/getAllMroWeakCoverageData', 'WeakCoverRateController@getAllMroWeakCoverageData');
+// Route::get('/weakCoverRateDate', 'WeakCoverRateController@weakCoverRateDate');
+
+//update lijian
+// Route::get('updateSearchContext', 'ParameterAnalysis\ParamDistributionController@getTreeData');
+// Route::get('updateSearch', 'ParameterAnalysis\ParamDistributionController@getUpdateSearch');
+
+
+// Route::get('/networkOptimization/GSMNeighAnalysis', 'NetworkOptimization\GSMNeighAnalysisController@getGSMNeighData');
+// Route::get('/NetworkOptimization/getAllCity', 'NetworkOptimization\GSMNeighAnalysisController@getAllCity');
+// Route::get('/fdfd', 'NetworkOptimization\GSMNeighAnalysisController@getfdfd');
+// Route::get('/NetworkOptimization/getLTENeighborAnalysisDate', 'NetworkOptimization\GSMNeighAnalysisController@getLTENeighborAnalysisDate');
+
+
+// Route::get('/networkOptimization/LTENeighAnalysis', 'NetworkOptimization\GSMNeighAnalysisController@getLTENeighData');
+// Route::get('/networkOptimization/GSMNeighAnalysisSplit', 'NetworkOptimization\GSMNeighAnalysisController@getGSMNeighDataSplit');
+// Route::get('/networkOptimization/LTENeighAnalysisSplit', 'NetworkOptimization\GSMNeighAnalysisController@getLTENeighDataSplit');
+// Route::get('/networkOptimization/GSMNeighAnalysisAll', 'NetworkOptimization\GSMNeighAnalysisController@getGSMNeighDataAll');
+// Route::get('/networkOptimization/GSMNeighAnalysisLteAll', 'NetworkOptimization\GSMNeighAnalysisController@getGSMNeighDataLteAll');
+// Route::post('/networkOptimization/getMREFileContent', 'NetworkOptimization\GSMNeighAnalysisController@getMREFileContent');
+// Route::post('/networkOptimization/exportWhiteList', 'NetworkOptimization\GSMNeighAnalysisController@exportWhiteList');
+
+
+// Route::get('/fdfde', 'NetworkOptimization\A2ThresholdAnalysisController@getfdfde');
+// Route::get('/A2ThresholdAnalysis/getAllCity', 'NetworkOptimization\A2ThresholdAnalysisController@getAllCity');
+// Route::get('/A2ThresholdAnalysis/getMreA2ThresholdDataHeader', 'NetworkOptimization\A2ThresholdAnalysisController@getMreA2ThresholdDataHeader');
+// Route::get('/A2ThresholdAnalysis/getMreA2ThresholdData', 'NetworkOptimization\A2ThresholdAnalysisController@getMreA2ThresholdData');
+// Route::get('/A2ThresholdAnalysis/getAllMreA2ThresholdData', 'NetworkOptimization\A2ThresholdAnalysisController@getAllMreA2ThresholdData');
+
+// Route::post('/fdfdf', 'NetworkOptimization\A5ThresholdAnalysisController@getfdfdf');
+// Route::post('/A5ThresholdAnalysis/getAllCity', 'NetworkOptimization\A5ThresholdAnalysisController@getAllCity');
+// Route::post('/A5ThresholdAnalysis/getMreA5ThresholdDataHeader', 'NetworkOptimization\A5ThresholdAnalysisController@getMreA5ThresholdDataHeader');
+// Route::post('/A5ThresholdAnalysis/getMreA5ThresholdData', 'NetworkOptimization\A5ThresholdAnalysisController@getMreA5ThresholdData');
+// Route::post('/A5ThresholdAnalysis/getAllMreA5ThresholdData', 'NetworkOptimization\A5ThresholdAnalysisController@getAllMreA5ThresholdData');
+
+//同频补邻区
+//MRO
+
+// Route::get('/MROServeNeighAnalysis/getAllCity', 'NetworkOptimization\MRONeighAnalysisController@getAllCity');
+// Route::get('/fdfdb', 'NetworkOptimization\MRONeighAnalysisController@getfdfdb');
+// Route::get('/MROServeNeighAnalysis/getMroServeNeighDataHeader', 'NetworkOptimization\MRONeighAnalysisController@getMroServeNeighDataHeader');
+// Route::get('/MROServeNeighAnalysis/getMroServeNeighData', 'NetworkOptimization\MRONeighAnalysisController@getMroServeNeighData');
+// Route::get('/MROServeNeighAnalysis/getAllMroServeNeighData', 'NetworkOptimization\MRONeighAnalysisController@getAllMroServeNeighData');
+//MRE
+Route::get('/fdfdc', 'NetworkOptimization\MRENeighAnalysisController@getfdfdC');
+// Route::get('/MREServeNeighAnalysis/getMreServeNeighDataHeader', 'NetworkOptimization\MRENeighAnalysisController@getMreServeNeighDataHeader');
+// Route::get('/MREServeNeighAnalysis/getMreServeNeighData', 'NetworkOptimization\MRENeighAnalysisController@getMreServeNeighData');
+// Route::get('/MREServeNeighAnalysis/getAllMreServeNeighData', 'NetworkOptimization\MRENeighAnalysisController@getAllMreServeNeighData');
+
+//CDR补2G邻区
+Route::get('/CDRServeNeighAnalysis/getAllCity', 'NetworkOptimization\CDRNeighAnalysisController@getAllCity');
+Route::get('/fdfda', 'NetworkOptimization\CDRNeighAnalysisController@getfdfda');
+// Route::get('/CDRServeNeighAnalysis/getCdrServeNeighDataHeader', 'NetworkOptimization\CDRNeighAnalysisController@getCdrServeNeighDataHeader');
+// Route::get('/CDRServeNeighAnalysis/getCdrServeNeighData', 'NetworkOptimization\CDRNeighAnalysisController@getCdrServeNeighData');
+// Route::get('/CDRServeNeighAnalysis/getAllCdrServeNeighData', 'NetworkOptimization\CDRNeighAnalysisController@getAllCdrServeNeighData');
+
+//xuyang badCell LTE邻区补
+// Route::post('/badCell/getLTENeighborHeader', 'BadCellAnalysis\BadCellController@getLTENeighborHeader');
+// Route::get('/badCell/getLTENeighborData', 'BadCellAnalysis\BadCellController@getLTENeighborData');
+// Route::post('/badCell/getGSMNeighborHeader', 'BadCellAnalysis\BadCellController@getGSMNeighborHeader');
+// Route::get('/badCell/getGSMNeighborData', 'BadCellAnalysis\BadCellController@getGSMNeighborData');
+
+// Route::get('overlapCoverCity', 'OverlapCoverController@getAllCity');
+// Route::get('overlapCoverDataHeader', 'OverlapCoverController@getOverlapCoverDataHeader');
+// Route::get('overlapCoverData', 'OverlapCoverController@getOverlapCoverData');
+// Route::get('allOverlapCoverData', 'OverlapCoverController@getAllOverlapCoverData');
+// Route::get('overlapCoverDate', 'OverlapCoverController@overlapCoverDate');
+// Route::get('overlapCoverGeniusDataHeader', 'OverlapCoverController@overlapCoverGeniusDataHeader');
+// Route::get('overlapCoverGeniusData', 'OverlapCoverController@overlapCoverGeniusData');
+// Route::get('allOverlapCoverGeniusData', 'OverlapCoverController@allOverlapCoverGeniusData');
+// Route::get('overlapCoverGeniusDate', 'OverlapCoverController@overlapCoverGeniusDate');
+
+//xuyang 2G邻区合理性分析
+Route::get('/fdfdi', 'NetworkOptimization\GSMNeighRationalityAnalysisController@getfdfdi');
+Route::get('/GSMNeighRationality/GSMNeighRationalityDistribute', 'NetworkOptimization\GSMNeighRationalityAnalysisController@getGSMNeighRationalityData');
+
+//zhangyongcai
+Route::get('/fdfdg', 'NetworkOptimization\LTENeighRationalityAnalysisController@getfdfdg');
+Route::get('/LTENeighRationality/LTENeighRationalityDistribute', 'NetworkOptimization\LTENeighRationalityAnalysisController@getLTENeighRationalityData');
+
+// Route::get('/SearchOverlapCoverOverview', 'OverlapCoverOverviewController@searchOverlapCoverOverview');
+// Route::get('/busyTime', 'OverlapCoverOverviewController@getBusyTime');
+
+
+// Route::get('/SearchInterCoverRatio', 'InterCoverRatioController@searchInterCoverRatio');
+// Route::get('/interTime', 'InterCoverRatioController@getInterTime');
+
+// Route::get('areaCoverageCity', 'AreaCoverageController@getAllCity');
+// Route::get('areaCoverageDataHeader', 'AreaCoverageController@getAreaCoverageDataHeader');
+// Route::get('areaCoverageData', 'AreaCoverageController@getAreaCoverageData');
+// Route::get('allAreaCoverageData', 'AreaCoverageController@getAllAreaCoverageData');
+// Route::get('areaCoverageDate', 'AreaCoverageController@areaCoverageDate');
+
+// Route::post('/indexGeographicOverview/getData', 'IndexGeographicOverviewController@getData');
+// Route::post('/indexGeographicOverview/getCell', 'IndexGeographicOverviewController@getCell');
+
+
+//lijian
+// Route::get('/genius/getNowTime', 'NetworkChartsTimerController@getNowTime');
+
+
+// Route::get('singalTrend', 'SingalChartsController@getSingalTrend');
+//xuyang 低接入小区PCI类指标
+Route::get('/badCell/conflictNum', 'BadCellAnalysis\BadCellController@getConflictNum');
+
+//lijian
+Route::get('csvZipDownload', 'CsvZipDownloadController@getZipFile');
+
+//lijian0316
+Route::post('/badCell/getLTENeighborHeader_model', 'BadCellAnalysis\BadCellController@getLTENeighborHeaderModel');
+// Route::get('/badCell/getLTENeighborData_model', 'BadCellAnalysis\BadCellController@getLTENeighborDataModel');
+// Route::get('badCell/getPrbNum', 'BadCellAnalysis\BadCellController@getPrbNum');
+// Route::post('/badCell/getLTENeighborHeader_1', 'BadCellAnalysis\BadCellController@getLTENeighborHeader1');
+// Route::get('/badCell/getLTENeighborData_1', 'BadCellAnalysis\BadCellController@getLTENeighborData1');
+//lijian0322
+// Route::get('/badCell/getWeakCoverCell_model', 'BadCellAnalysis\BadCellController@getWeakCoverCellModel');
+// Route::get('/badCell/getzhichaCell_model', 'BadCellAnalysis\BadCellController@getzhichaCellModel');
+// Route::get('/badCell/getOverlapCover_model', 'BadCellAnalysis\BadCellController@getOverlapCoverModel');
+//0331
+// Route::get('/badCell/getInterfereCell_model', 'BadCellAnalysis\BadCellController@getInterfereCellModel');
+//20170411
+// Route::get('/badCell/getZhichaCell_chart', 'BadCellAnalysis\BadCellController@getZhichaCellChart');
+
+//lijian 差小区-极地图
+Route::get('/badCell/getPolarMapData', 'BadCellAnalysis\BadCellController@getPolarMapData');
+
+// Route::get('badCell/getNumOfDiagnosisData_mr', 'BadCellAnalysis\BadCellController@getNumOfDiagnosisDataMR');
+// Route::get('badCell/getNumOfDiagnosisDataFilter_alarm', 'BadCellAnalysis\BadCellController@getNumOfDiagnosisDataFilter_alarm');
+// Route::get('badCell/getNumOfDiagnosisDataFilter_weakCover', 'BadCellAnalysis\BadCellController@getNumOfDiagnosisDataFilter_weakCover');
+// Route::get('badCell/getNumOfDiagnosisDataFilter_zhicha', 'BadCellAnalysis\BadCellController@getNumOfDiagnosisDataFilter_zhicha');
+// Route::get('badCell/getNumOfDiagnosisDataFilter_overlapCover', 'BadCellAnalysis\BadCellController@getNumOfDiagnosisDataFilter_overlapCover');
+// Route::get('badCell/getNumOfDiagnosisDataFilter_AvgPRB', 'BadCellAnalysis\BadCellController@getNumOfDiagnosisDataFilter_AvgPRB');
+// Route::get('badCell/getNumOfDiagnosisDataFilter_parameter', 'BadCellAnalysis\BadCellController@getNumOfDiagnosisDataFilter_parameter');
+// Route::get('badCell/getNumOfDiagnosisDataFilter_highTraffic', 'BadCellAnalysis\BadCellController@getNumOfDiagnosisDataFilter_highTraffic');
+
+//RRC原因值分布
+// Route::get('/badCell/rrcResult', 'BadCellAnalysis\BadCellController@getRrcResult');
+// Route::get('/badCell/getRrcResultTableData', 'BadCellAnalysis\BadCellController@getRrcResultTableData');
+// Route::post('/badCell/getRrcResultDetailTableField', 'BadCellAnalysis\BadCellController@getRrcResultDetailTableField');
+// Route::post('/badCell/getRrcResultDetailData', 'BadCellAnalysis\BadCellController@getRrcResultDetailData');
+// Route::post('/badCell/exportRrcResultDetail', 'BadCellAnalysis\BadCellController@exportRrcResultDetail');
+
+//0524
+// Route::get('/badCell/rrcResult_erab', 'BadCellAnalysis\BadCellController@getRrcResult_erab');
+// Route::get('/badCell/getRrcResultTableData_rrcc', 'BadCellAnalysis\BadCellController@getRrcResultTableData_rrcc');
+
+//相关性分析：无线接通率&干扰/无线接通率&质差/RRC建立成功率/无线接通率&ERAB建立成功率
+// Route::get('/badCell/getWirelessCallRate_zhicha', 'BadCellAnalysis\BadCellController@getWirelessCallRate_zhicha');
+// Route::get('/badCell/getWirelessCallRate_interfere', 'BadCellAnalysis\BadCellController@getWirelessCallRate_interfere');
+// Route::get('/badCell/getWirelessCallRate_RRCEstSucc', 'BadCellAnalysis\BadCellController@getWirelessCallRate_RRCEstSucc');
+// Route::get('/badCell/getWirelessCallRate_ERABEstSucc', 'BadCellAnalysis\BadCellController@getWirelessCallRate_ERABEstSucc');
+
+
+// Route::get('/badCell/getRelatedTrends', 'BadCellAnalysis\BadCellController@getRelatedTrends');
+

@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e3f73d9-0f8f-4917-822b-87f12c73e242" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AlarmAnalysis/CurrentAlarmQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AlarmAnalysis/CurrentAlarmQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AlarmAnalysis/HistoryAlarmQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AlarmAnalysis/HistoryAlarmQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AlarmController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AlarmController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AreaCoverageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AreaCoverageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/BadCellController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/BadCellController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/CauseValueAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/CauseValueAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/FailureAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/FailureAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/HighInterferenceCellController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/HighInterferenceCellController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/HistoryCellSearchController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/HistoryCellSearchController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/PacketLossAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/PacketLossAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BadCellController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BadCellController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CellPRBAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CellPRBAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Common/DataBaseConnection.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Common/DataBaseConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/CtrSignalingAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/CtrSignalingAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/ENBAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/ENBAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/L3AnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/L3AnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/NASSignalingBacktrackController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/NASSignalingBacktrackController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/SignalingAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/SignalingAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/SignalingBacktrackingController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/SignalingBacktrackingController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/SignalingDiagnoseController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/SignalingDiagnoseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/XinlinghuisuController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComplaintHandling/XinlinghuisuController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CoverageQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CoverageQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/KpiExporter.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/KpiExporter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/AccessRateModel.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/AccessRateModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscByCA.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscByCA.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscByCarrier.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscByCarrier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscByType.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscByType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscVersionByCity.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscVersionByCity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscVersionByType.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/BscVersionByType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/CarrierByChannel.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/CarrierByChannel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/CarrierByCity.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/CarrierByCity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/HandoverRateModel.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/HandoverRateModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/LostRateModel.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/LostRateModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/VolteAccessRate.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/Models/VolteAccessRate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/NetworkChartsExporter.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/NetworkChartsExporter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Exporter/ScaleExporter.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exporter/ScaleExporter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FileSystem/FileController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FileSystem/FileController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexGeographicOverviewController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexGeographicOverviewController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/InterCloudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/InterCloudController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/InterCoverRatioController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/InterCoverRatioController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/InterfereController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/InterfereController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NavController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NavController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkChartsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkChartsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkChartsTimerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkChartsTimerController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/A2ThresholdAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/A2ThresholdAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/A5ThresholdAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/A5ThresholdAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/CDRNeighAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/CDRNeighAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/GSMNeighAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/GSMNeighAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/GSMNeighRationalityAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/GSMNeighRationalityAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/LTENeighRationalityAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/LTENeighRationalityAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/MRENeighAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/MRENeighAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/MRONeighAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/MRONeighAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/PCIMOD3AnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/PCIMOD3AnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/RelationBadHandoverController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/RelationBadHandoverController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/RelationNonHandoverController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkOptimization/RelationNonHandoverController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NetworkScaleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NetworkScaleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/OverlapCoverController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/OverlapCoverController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/OverlappingAcceptorAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/OverlappingAcceptorAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/OverlappingDonorAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/OverlappingDonorAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/BaselineCheckController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/BaselineCheckController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/BulkcmMarkController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/BulkcmMarkController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/ConsistencyCheckController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/ConsistencyCheckController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/KgetpartMarkController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/KgetpartMarkController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/ParamDistributionController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/ParamDistributionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/ParamQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/ParamQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/RRUController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/RRUController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/SQLQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/SQLQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/StrideMOQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/StrideMOQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/CustomQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/CustomQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/GSMQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/GSMQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/GSMTemplateController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/GSMTemplateController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/GetTreeData.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/GetTreeData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/LTEQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/LTEQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/LTETemplateController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/LTETemplateController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/NBIQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/NBIQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/NBITemplateController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/NBITemplateController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RSRPAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RSRPAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RealTimeInterferenceController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RealTimeInterferenceController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SingalChartsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SingalChartsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SpecialFunction/ModifyFrequency4gController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpecialFunction/ModifyFrequency4gController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SpecialFunction/ParamCompareController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpecialFunction/ParamCompareController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SwitchController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SwitchController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/AccessController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/AccessController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DataSourceController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DataSourceController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DownloadCourseController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DownloadCourseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DownloadManageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DownloadManageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/ENIQController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/ENIQController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/EmailController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/EmailController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/LocalDataManageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/LocalDataManageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/NoticeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/NoticeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/ParamsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/ParamsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/SiteController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/StorageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/StorageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/StoreManageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/StoreManageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/UserSettingController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SystemManage/UserSettingController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/AbilityAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/AbilityAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/MarketAnalysisController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/MarketAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/TerminalQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/TerminalQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/TrailQueryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/TrailQueryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Utils/FileUtil.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Utils/FileUtil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WeakController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeakController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WeakCoverController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeakCoverController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WeakCoverOverviewController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeakCoverOverviewController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WeakCoverRateController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeakCoverRateController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WeakoverlapCoverOverviewController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeakoverlapCoverOverviewController.php" />
+    </list>
+    <ignored path="genius.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="genius" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WeakController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4039">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding>
+                <marker date="1494465599596" expanded="true" signature="1175:1299" placeholder="select count... ParaCheckBaseline" />
+                <marker date="1494465599596" expanded="true" signature="2895:3035" placeholder="select count... ParaCheckBaseline" />
+                <marker date="1494465599596" expanded="true" signature="4623:7227" placeholder="select sum(n... count" />
+                <marker date="1494465599596" expanded="true" signature="4645:4738" placeholder="select count... TempEUtranCellFreqRelation" />
+                <marker date="1494465599596" expanded="true" signature="4769:4884" placeholder="select count... TempEUtranCellRelationUnidirectionalNeighborCell" />
+                <marker date="1494465599596" expanded="true" signature="4915:5030" placeholder="select count... TempEUtranCellRelationExistNeighborCellWithoutX2" />
+                <marker date="1494465599596" expanded="true" signature="5057:5162" placeholder="select count... TempEUtranCellRelationManyNeighborCell" />
+                <marker date="1494465599596" expanded="true" signature="5193:5297" placeholder="select count... TempEUtranCellRelationFewNeighborCell" />
+                <marker date="1494465599596" expanded="true" signature="5328:5439" placeholder="select count... TempExternalEUtranCellTDDActivePlmnListCheck" />
+                <marker date="1494465599596" expanded="true" signature="5470:5569" placeholder="select count... TempEUtranCellRelationNeighOfPci" />
+                <marker date="1494465599596" expanded="true" signature="5600:5704" placeholder="select count... TempEUtranCellRelationNeighOfNeighPci" />
+                <marker date="1494465599596" expanded="true" signature="5735:5833" placeholder="select count... TempGeranCellRelation2GNeighbor" />
+                <marker date="1494465599596" expanded="true" signature="5864:5957" placeholder="select count... TempParameter2GKgetCompare" />
+                <marker date="1494465599596" expanded="true" signature="5988:6074" placeholder="select count... TempExternalNeigh4G" />
+                <marker date="1494465599596" expanded="true" signature="6105:6193" placeholder="select count... TempParameterQCI_A1A2" />
+                <marker date="1494465599596" expanded="true" signature="6224:6320" placeholder="select count... TempParameterQCI_B2A2critical" />
+                <marker date="1494465599596" expanded="true" signature="6351:6452" placeholder="select count... TempTermPointToENB_ENBID_ipAddress" />
+                <marker date="1494465599596" expanded="true" signature="6483:6588" placeholder="select count... TempTermPointToENB_ENBID_usedIpAddress" />
+                <marker date="1494465599596" expanded="true" signature="6619:6707" placeholder="select count... TempTermPointToENB_IP" />
+                <marker date="1494465599596" expanded="true" signature="6738:6832" placeholder="select count... TempTermPointToENB_X2Status" />
+                <marker date="1494465599596" expanded="true" signature="6863:6957" placeholder="select count... TempTermPointToMme_S1_MMEGI" />
+                <marker date="1494465599596" expanded="true" signature="6988:7080" placeholder="select count... TempTermPointToMme_S1_MME" />
+                <marker date="1494465599596" expanded="true" signature="7111:7203" placeholder="select count... TempTermPointToMme_S1_tac" />
+                <marker date="1494465599596" expanded="true" signature="8425:11369" placeholder="select sum(n... count" />
+                <marker date="1494465599596" expanded="true" signature="8447:8557" placeholder="select count... TempEUtranCellFreqRelation" />
+                <marker date="1494465599596" expanded="true" signature="8588:8720" placeholder="select count... TempEUtranCellRelationUnidirectionalNeighborCell" />
+                <marker date="1494465599596" expanded="true" signature="8751:8883" placeholder="select count... TempEUtranCellRelationExistNeighborCellWithoutX2" />
+                <marker date="1494465599596" expanded="true" signature="8910:9032" placeholder="select count... TempEUtranCellRelationManyNeighborCell" />
+                <marker date="1494465599596" expanded="true" signature="9063:9184" placeholder="select count... TempEUtranCellRelationFewNeighborCell" />
+                <marker date="1494465599596" expanded="true" signature="9215:9343" placeholder="select count... TempExternalEUtranCellTDDActivePlmnListCheck" />
+                <marker date="1494465599596" expanded="true" signature="9374:9490" placeholder="select count... TempEUtranCellRelationNeighOfPci" />
+                <marker date="1494465599596" expanded="true" signature="9521:9642" placeholder="select count... TempEUtranCellRelationNeighOfNeighPci" />
+                <marker date="1494465599596" expanded="true" signature="9673:9788" placeholder="select count... TempGeranCellRelation2GNeighbor" />
+                <marker date="1494465599596" expanded="true" signature="9819:9929" placeholder="select count... TempParameter2GKgetCompare" />
+                <marker date="1494465599596" expanded="true" signature="9960:10063" placeholder="select count... TempExternalNeigh4G" />
+                <marker date="1494465599596" expanded="true" signature="10094:10199" placeholder="select count... TempParameterQCI_A1A2" />
+                <marker date="1494465599596" expanded="true" signature="10230:10343" placeholder="select count... TempParameterQCI_B2A2critical" />
+                <marker date="1494465599596" expanded="true" signature="10374:10492" placeholder="select count... TempTermPointToENB_ENBID_ipAddress" />
+                <marker date="1494465599596" expanded="true" signature="10523:10645" placeholder="select count... TempTermPointToENB_ENBID_usedIpAddress" />
+                <marker date="1494465599596" expanded="true" signature="10676:10781" placeholder="select count... TempTermPointToENB_IP" />
+                <marker date="1494465599596" expanded="true" signature="10812:10923" placeholder="select count... TempTermPointToENB_X2Status" />
+                <marker date="1494465599596" expanded="true" signature="10954:11065" placeholder="select count... TempTermPointToMme_S1_MMEGI" />
+                <marker date="1494465599596" expanded="true" signature="11096:11205" placeholder="select count... TempTermPointToMme_S1_MME" />
+                <marker date="1494465599596" expanded="true" signature="11236:11345" placeholder="select count... TempTermPointToMme_S1_tac" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeakCoverController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakCoverController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2662">
+              <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <folding>
+                <marker date="1494465619694" expanded="true" signature="1475:1765" placeholder="SELECT * FRO... ecgi" />
+                <marker date="1494465619694" expanded="true" signature="1491:1562" placeholder="SELECT ecgi,... mroOverCoverage" />
+                <marker date="1494465619694" expanded="true" signature="1576:1692" placeholder="SELECT longi... siteLte" />
+                <marker date="1494465619694" expanded="true" signature="3066:3458" placeholder="SELECT * FRO... ecgi" />
+                <marker date="1494465619694" expanded="true" signature="3081:3456" placeholder="SELECT a.ecg... ecgi" />
+                <marker date="1494465619694" expanded="true" signature="3229:3331" placeholder="select ecgi,... mroWeakCoverage" />
+                <marker date="1494465619694" expanded="true" signature="3345:3437" placeholder="SELECT ecgi,... siteLte" />
+                <marker date="1494465619694" expanded="true" signature="4643:4806" placeholder="SELECT ecgi,... mroWeakCoverage" />
+                <marker date="1494465619694" expanded="true" signature="5677:5710" placeholder="select disti... ${$table}" />
+                <marker date="1494465619694" expanded="true" signature="6702:6735" placeholder="select disti... ${$table}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeakCoverOverviewController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakCoverOverviewController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-313">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <marker date="1494465632681" expanded="true" signature="1121:1383" placeholder="select datet... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeakCoverRateController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakCoverRateController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-853">
+              <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+              <folding>
+                <marker date="1494465659285" expanded="true" signature="894:930" placeholder="select * fro... ${$table}" />
+                <marker date="1494465659285" expanded="true" signature="2396:2424" placeholder="select * fro... ${$table}" />
+                <marker date="1494465659285" expanded="true" signature="2954:3031" placeholder="select * fro... ${$table}" />
+                <marker date="1494465659285" expanded="true" signature="3742:3827" placeholder="select * fro... ${$table}" />
+                <marker date="1494465659285" expanded="true" signature="4811:4839" placeholder="select * fro... ${$table}" />
+                <marker date="1494465659285" expanded="true" signature="5357:5434" placeholder="select * fro... ${$table}" />
+                <marker date="1494465659285" expanded="true" signature="6689:6722" placeholder="select disti... ${$table}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeakCoverRatioController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakCoverRatioController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2536">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1494317496608" expanded="true" signature="1430:1535" placeholder="SELECT COUNT... mroWeakCoverage" />
+                <marker date="1494317496608" expanded="true" signature="1562:1649" placeholder="SELECT COUNT... mroWeakCoverage" />
+                <marker date="1494317496608" expanded="true" signature="2983:3043" placeholder="select disti... ${$table}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeakoverlapCoverOverviewController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakoverlapCoverOverviewController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-322">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <marker date="1494465672197" expanded="true" signature="1152:1411" placeholder="select datet... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KpiExportRequest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/KpiExportRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-430">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkChartsRequest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/NetworkChartsRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-457">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScaleExportRequest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/ScaleExportRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-457">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/ParameterAnalysis/StrideMOQueryController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/LTEQueryController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/NetworkScaleController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/BadCellAnalysis/BadCellController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/Common/DataBaseConnection.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/routes.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/GSMTemplateController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/LTEQueryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/LTETemplateController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/NBIQueryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QueryAnalysis/NBITemplateController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SpecialFunction/ModifyFrequency4gController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SpecialFunction/ParamCompareController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/AccessController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DataSourceController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DownloadCourseController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/DownloadManageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/EmailController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/ENIQController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/LocalDataManageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/NoticeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/ParamsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/SiteController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/StorageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/StoreManageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SystemManage/UserSettingController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/AbilityAnalysisController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/MarketAnalysisController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/TerminalQueryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/TrailQueryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Utils/FileUtil.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AlarmController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AreaCoverageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BadCellController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CellPRBAnalysisController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CoverageQueryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/IndexGeographicOverviewController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/InterCloudController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/InterCoverRatioController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/InterfereController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NavController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NetworkChartsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NetworkChartsTimerController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NetworkScaleController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/OverlapCoverController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/OverlappingAcceptorAnalysisController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/OverlappingDonorAnalysisController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RealTimeInterferenceController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RSRPAnalysisController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SingalChartsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SwitchController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WeakController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WeakCoverController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WeakCoverOverviewController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WeakCoverRateController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WeakoverlapCoverOverviewController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Requests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Middleware" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SystemManage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpecialFunction" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QueryAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParameterAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NetworkOptimization" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileSystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exporter" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComplaintHandling" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BadCellAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlarmAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exceptions" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Events" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genius" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Commands" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlarmAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/efjlmmo/Code/genius/resources/views/layouts/app.blade.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\efjlmmo\Code\genius\public\plugins\font-awesome\fonts" />
+      <recent name="C:\Users\efjlmmo\Code\genius\public\plugins\font-awesome\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\efjlmmo\Code\genius\public\plugins\highcharts\js\modules" />
+      <recent name="C:\Users\efjlmmo\Code\genius\public\plugins\highcharts" />
+      <recent name="C:\Users\efjlmmo\Code\genius\public\plugins\font-awesome" />
+      <recent name="C:\Users\efjlmmo\Code\genius\public\plugins\respond" />
+      <recent name="C:\Users\efjlmmo\Code\genius\public\plugins\html5shiv" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e3f73d9-0f8f-4917-822b-87f12c73e242" name="Default" comment="" />
+      <created>1465278381749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1465278381749</updated>
+      <workItem from="1465278383742" duration="13596000" />
+      <workItem from="1465303085961" duration="2445000" />
+      <workItem from="1465367371400" duration="3453000" />
+      <workItem from="1466490098719" duration="10904000" />
+      <workItem from="1466511084125" duration="1399000" />
+      <workItem from="1466658266515" duration="5011000" />
+      <workItem from="1466664674595" duration="10018000" />
+      <workItem from="1466694590981" duration="7769000" />
+      <workItem from="1466732863190" duration="18380000" />
+      <workItem from="1466814088605" duration="18612000" />
+      <workItem from="1466920844817" duration="11421000" />
+      <workItem from="1466944795877" duration="2058000" />
+      <workItem from="1466989637085" duration="1675000" />
+      <workItem from="1466994226812" duration="8233000" />
+      <workItem from="1467015610814" duration="3178000" />
+      <workItem from="1467077006990" duration="18710000" />
+      <workItem from="1467164202500" duration="8073000" />
+      <workItem from="1467184049890" duration="7046000" />
+      <workItem from="1467203525467" duration="7863000" />
+      <workItem from="1467252765581" duration="19745000" />
+      <workItem from="1467299460139" duration="8055000" />
+      <workItem from="1467339128227" duration="8973000" />
+      <workItem from="1467595584442" duration="17933000" />
+      <workItem from="1467640576999" duration="6979000" />
+      <workItem from="1467683018694" duration="4284000" />
+      <workItem from="1467698218498" duration="5816000" />
+      <workItem from="1467882134750" duration="4185000" />
+      <workItem from="1467898210121" duration="6336000" />
+      <workItem from="1467942983056" duration="10720000" />
+      <workItem from="1468220933174" duration="9145000" />
+      <workItem from="1468292413516" duration="9728000" />
+      <workItem from="1468310311708" duration="124000" />
+      <workItem from="1488202744683" duration="1711000" />
+      <workItem from="1490067208901" duration="5814000" />
+      <workItem from="1490147115821" duration="14502000" />
+      <workItem from="1494225047260" duration="7702000" />
+      <workItem from="1494293494107" duration="5618000" />
+      <workItem from="1494301501924" duration="6919000" />
+      <workItem from="1494317509329" duration="3270000" />
+      <workItem from="1494399810593" duration="6906000" />
+      <workItem from="1494463486915" duration="2200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="326509000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32576868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/dist/js/genius/network-chart.js</url>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/dist/js/genius/network-scale.js</url>
+          <line>172</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/dist/js/genius/network-chart.js</url>
+          <line>356</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/dist/js/genius/network-chart.js</url>
+          <line>596</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/dist/js/genius/network-chart.js</url>
+          <line>652</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/EmailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="218" column="19" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+          <folding>
+            <marker date="1494464434992" expanded="true" signature="575:634" placeholder="select disti... mail_group" />
+            <marker date="1494464434992" expanded="true" signature="1801:1854" placeholder="select count... mail_list" />
+            <marker date="1494464434992" expanded="true" signature="1894:1966" placeholder="select count... mail_list" />
+            <marker date="1494464434992" expanded="true" signature="2187:2233" placeholder="select * fro... mail_list" />
+            <marker date="1494464434992" expanded="true" signature="2282:2347" placeholder="select * fro... mail_list" />
+            <marker date="1494464434992" expanded="true" signature="3088:3220" placeholder="UPDATE mail_... " />
+            <marker date="1494464434992" expanded="true" signature="3260:3373" placeholder="INSERT INTO mail_list... " />
+            <marker date="1494464434992" expanded="true" signature="3840:3969" placeholder="delete from " />
+            <marker date="1494464434992" expanded="true" signature="4306:4403" placeholder="INSERT INTO mail_group... " />
+            <marker date="1494464434992" expanded="true" signature="4663:4715" placeholder="select nameE... city_info" />
+            <marker date="1494464434992" expanded="true" signature="5147:5185" placeholder="select scope... mail_group" />
+            <marker date="1494464434992" expanded="true" signature="5659:5718" placeholder="select role,... mail_group" />
+            <marker date="1494464434992" expanded="true" signature="6290:6334" placeholder="delete from " />
+            <marker date="1494464434992" expanded="true" signature="6393:6436" placeholder="delete from " />
+            <marker date="1494464434992" expanded="true" signature="6528:6566" placeholder="delete from " />
+            <marker date="1494464434992" expanded="true" signature="6625:6687" placeholder="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/ENIQController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="234" column="19" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
+          <folding>
+            <marker date="1494464471645" expanded="true" signature="661:687" placeholder="select * fro... databaseconn" />
+            <marker date="1494464471645" expanded="true" signature="1909:1938" placeholder="select * fro... databaseconn_2G" />
+            <marker date="1494464471645" expanded="true" signature="3237:3285" placeholder="delete from " />
+            <marker date="1494464471645" expanded="true" signature="3343:3394" placeholder="delete from " />
+            <marker date="1494464471645" expanded="true" signature="3434:3485" placeholder="delete from " />
+            <marker date="1494464471645" expanded="true" signature="4285:4621" placeholder="UPDATE datab... " />
+            <marker date="1494464471645" expanded="true" signature="4688:4948" placeholder="UPDATE datab... " />
+            <marker date="1494464471645" expanded="true" signature="5039:5257" placeholder="INSERT INTO databaseconn... " />
+            <marker date="1494464471645" expanded="true" signature="5324:5498" placeholder="INSERT INTO databaseconn_2G... " />
+            <marker date="1494464471645" expanded="true" signature="5781:5810" placeholder="select * fro... alarmServerInfo" />
+            <marker date="1494464471645" expanded="true" signature="7388:7574" placeholder="UPDATE alarm... " />
+            <marker date="1494464471645" expanded="true" signature="7614:7727" placeholder="INSERT INTO alarmServerInfo... " />
+            <marker date="1494464471645" expanded="true" signature="8034:8077" placeholder="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/LocalDataManageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <marker date="1494464482266" expanded="true" signature="1440:1485" placeholder="select * fro... task" />
+            <marker date="1494464482266" expanded="true" signature="1889:1993" placeholder="insert into task... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/NoticeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448">
+          <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+          <folding>
+            <marker date="1494464500653" expanded="true" signature="664:695" placeholder="select id,ty... users_group" />
+            <marker date="1494464500653" expanded="true" signature="928:1017" placeholder="select id,pu... notification" />
+            <marker date="1494464500653" expanded="true" signature="2003:2051" placeholder="delete from " />
+            <marker date="1494464500653" expanded="true" signature="2359:2409" placeholder="select userG... notification" />
+            <marker date="1494464500653" expanded="true" signature="2581:2612" placeholder="select id,ty... users_group" />
+            <marker date="1494464500653" expanded="true" signature="3383:3435" placeholder="select id fr... users_group" />
+            <marker date="1494464500653" expanded="true" signature="3548:3600" placeholder="select * fro... notification" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/ParamsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="492" column="19" selection-start-line="492" selection-start-column="19" selection-end-line="492" selection-end-column="19" />
+          <folding>
+            <marker date="1494464592204" expanded="true" signature="595:655" placeholder="select disti... templateParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="1625:1685" placeholder="select disti... templateParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="1861:1954" placeholder="select * fro... templateParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="2859:2892" placeholder="select * fro... formulaParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="2932:3005" placeholder="select * fro... formulaParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="3245:3316" placeholder="select templ... templateParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="6608:6691" placeholder="delete from " />
+            <marker date="1494464592204" expanded="true" signature="7607:7646" placeholder="insert into formulaParaBaseline... " />
+            <marker date="1494464592204" expanded="true" signature="8660:8745" placeholder="insert into templateParaBaseline... " />
+            <marker date="1494464592204" expanded="true" signature="9277:9326" placeholder="delete from " />
+            <marker date="1494464592204" expanded="true" signature="9413:9469" placeholder="delete from " />
+            <marker date="1494464592204" expanded="true" signature="9629:9697" placeholder="delete from " />
+            <marker date="1494464592204" expanded="true" signature="9784:9840" placeholder="delete from " />
+            <marker date="1494464592204" expanded="true" signature="10424:10549" placeholder="select * fro... task" />
+            <marker date="1494464592204" expanded="true" signature="11289:11351" placeholder="select count... taskParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="11528:11608" placeholder="select * fro... taskParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="12143:12207" placeholder="select count... taskParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="12641:12789" placeholder="insert into taskParaBaseline... " />
+            <marker date="1494464592204" expanded="true" signature="13092:13150" placeholder="select taskN... taskParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="13291:13340" placeholder="delete from " />
+            <marker date="1494464592204" expanded="true" signature="13900:14003" placeholder="update taskP... " />
+            <marker date="1494464592204" expanded="true" signature="14134:14191" placeholder="select * fro... taskParaBaseline" />
+            <marker date="1494464592204" expanded="true" signature="14931:15031" placeholder="update taskP... " />
+            <marker date="1494464592204" expanded="true" signature="15933:16030" placeholder="update taskP... " />
+            <marker date="1494464592204" expanded="true" signature="16075:16132" placeholder="select * fro... taskParaBaseline" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-772">
+          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+          <folding>
+            <marker date="1494464629529" expanded="true" signature="795:867" placeholder="select id, c... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="1821:1842" placeholder="select count... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="1891:1952" placeholder="select count... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="2174:2188" placeholder="select * fro... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="2246:2312" placeholder="select * fro... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="3145:3166" placeholder="select count... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="3215:3272" placeholder="select count... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="3495:3509" placeholder="select * fro... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="3567:3629" placeholder="select * fro... ${$table}" />
+            <marker date="1494464629529" expanded="true" signature="4499:4551" placeholder="delete from " />
+            <marker date="1494464629529" expanded="true" signature="5821:6028" placeholder="insert into siteLte... " />
+            <marker date="1494464629529" expanded="true" signature="6247:6306" placeholder="delete from " />
+            <marker date="1494464629529" expanded="true" signature="7673:7700" placeholder="insert into siteGsm... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/StorageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="352" column="19" selection-start-line="352" selection-start-column="19" selection-end-line="352" selection-end-column="19" />
+          <folding>
+            <marker date="1494464684012" expanded="true" signature="1119:1162" placeholder="select * fro... task" />
+            <marker date="1494464684012" expanded="true" signature="1202:1266" placeholder="select * fro... task" />
+            <marker date="1494464684012" expanded="true" signature="6736:6781" placeholder="select * fro... task" />
+            <marker date="1494464684012" expanded="true" signature="7250:7354" placeholder="insert into task... " />
+            <marker date="1494464684012" expanded="true" signature="7706:7749" placeholder="delete from " />
+            <marker date="1494464684012" expanded="true" signature="9085:9168" placeholder="update task " />
+            <marker date="1494464684012" expanded="true" signature="9421:9466" placeholder="select * fro... task" />
+            <marker date="1494464684012" expanded="true" signature="10195:10283" placeholder="update task " />
+            <marker date="1494464684012" expanded="true" signature="11120:11205" placeholder="update task " />
+            <marker date="1494464684012" expanded="true" signature="11250:11295" placeholder="select * fro... task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/StoreManageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+          <folding>
+            <marker date="1494464730273" expanded="true" signature="663:704" placeholder="select DISTI... traceServerInfo" />
+            <marker date="1494464730273" expanded="true" signature="1636:1672" placeholder="select count... traceServerInfo" />
+            <marker date="1494464730273" expanded="true" signature="1712:1769" placeholder="select count... traceServerInfo" />
+            <marker date="1494464730273" expanded="true" signature="1991:2020" placeholder="select * fro... traceServerInfo" />
+            <marker date="1494464730273" expanded="true" signature="2069:2119" placeholder="select * fro... traceServerInfo" />
+            <marker date="1494464730273" expanded="true" signature="2989:3195" placeholder="UPDATE trace... " />
+            <marker date="1494464730273" expanded="true" signature="3235:3354" placeholder="INSERT INTO traceServerInfo... " />
+            <marker date="1494464730273" expanded="true" signature="3662:3705" placeholder="delete from " />
+            <marker date="1494464730273" expanded="true" signature="3962:4047" placeholder="SELECT cityC... databaseconn" />
+            <marker date="1494464730273" expanded="true" signature="4542:4583" placeholder="SELECT DISTI... traceServerInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="281" column="19" selection-start-line="281" selection-start-column="19" selection-end-line="281" selection-end-column="19" />
+          <folding>
+            <marker date="1494464770473" expanded="true" signature="642:670" placeholder="select type users_group" />
+            <marker date="1494464770473" expanded="true" signature="1367:1393" placeholder="select count... users" />
+            <marker date="1494464770473" expanded="true" signature="1433:1480" placeholder="select count... users" />
+            <marker date="1494464770473" expanded="true" signature="1703:1766" placeholder="select id,us... users" />
+            <marker date="1494464770473" expanded="true" signature="1806:1890" placeholder="select id,us... users" />
+            <marker date="1494464770473" expanded="true" signature="2399:2438" placeholder="select user users" />
+            <marker date="1494464770473" expanded="true" signature="2546:2587" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="2714:2755" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="2773:2817" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="2835:2879" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="2897:2940" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="2958:3004" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="3022:3068" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="3644:3877" placeholder="UPDATE users... " />
+            <marker date="1494464770473" expanded="true" signature="3917:4123" placeholder="INSERT INTO users... " />
+            <marker date="1494464770473" expanded="true" signature="4392:4420" placeholder="select type users_group" />
+            <marker date="1494464770473" expanded="true" signature="4958:5009" placeholder="INSERT INTO users_group... " />
+            <marker date="1494464770473" expanded="true" signature="5309:5352" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="5403:5440" placeholder="delete from " />
+            <marker date="1494464770473" expanded="true" signature="5901:5953" placeholder="SELECT menu_... users_group" />
+            <marker date="1494464770473" expanded="true" signature="6121:6164" placeholder="SELECT DISTI... menu_list" />
+            <marker date="1494464770473" expanded="true" signature="6586:6663" placeholder="SELECT DISTI... menu_list" />
+            <marker date="1494464770473" expanded="true" signature="7134:7242" placeholder="SELECT id,me... menu_list" />
+            <marker date="1494464770473" expanded="true" signature="9072:9136" placeholder="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SystemManage/UserSettingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <marker date="1494464779591" expanded="true" signature="756:821" placeholder="UPDATE users... " />
+            <marker date="1494464779591" expanded="true" signature="1153:1199" placeholder="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/AbilityAnalysisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6226">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+          <folding>
+            <marker date="1494464791543" expanded="true" signature="1315:1502" placeholder="select sum(c... userInfo" />
+            <marker date="1494464791543" expanded="true" signature="2701:2900" placeholder="select sum(c... userInfo" />
+            <marker date="1494464791543" expanded="true" signature="3951:4007" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="4197:4724" placeholder="select sum(c... count" />
+            <marker date="1494464791543" expanded="true" signature="4234:4326" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="4361:4453" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="4488:4580" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="4615:4707" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="5570:5626" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="5843:6370" placeholder="select sum(c... count" />
+            <marker date="1494464791543" expanded="true" signature="5880:5972" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="6007:6099" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="6134:6226" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="6261:6353" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="7346:7402" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="7593:7787" placeholder="select CAST(... type" />
+            <marker date="1494464791543" expanded="true" signature="7693:7787" placeholder="select 'feat... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="9117:9173" placeholder="select count... ueCapability" />
+            <marker date="1494464791543" expanded="true" signature="9364:9558" placeholder="select CAST(... type" />
+            <marker date="1494464791543" expanded="true" signature="9464:9558" placeholder="select 'feat... ueCapability" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/MarketAnalysisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
+          <folding>
+            <marker date="1494464847090" expanded="true" signature="1540:1608" placeholder="select brand... userInfo" />
+            <marker date="1494464847090" expanded="true" signature="1836:1924" placeholder="select brand... userInfo" />
+            <marker date="1494464847090" expanded="true" signature="2833:2901" placeholder="select model... userInfo" />
+            <marker date="1494464847090" expanded="true" signature="3128:3216" placeholder="select model... userInfo" />
+            <marker date="1494464847090" expanded="true" signature="3870:3958" placeholder="select brand... userInfo" />
+            <marker date="1494464847090" expanded="true" signature="5326:5414" placeholder="select model... userInfo" />
+            <marker date="1494464847090" expanded="true" signature="6396:6484" placeholder="select brand... userInfo" />
+            <marker date="1494464847090" expanded="true" signature="7344:7432" placeholder="select model... userInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/TerminalQueryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+          <folding>
+            <marker date="1494464879245" expanded="true" signature="1289:1319" placeholder="select * fro... userInfo" />
+            <marker date="1494464879245" expanded="true" signature="2176:2250" placeholder="select count... userInfo" />
+            <marker date="1494464879245" expanded="true" signature="2389:2456" placeholder="select * fro... userInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserAnalysis/TrailQueryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+          <folding>
+            <marker date="1494464895291" expanded="true" signature="1401:1469" placeholder="select imsi userInfo" />
+            <marker date="1494464895291" expanded="true" signature="1737:1821" placeholder="select * fro... L_HANDOVER" />
+            <marker date="1494464895291" expanded="true" signature="2384:2497" placeholder="select cellN... siteLte" />
+            <marker date="1494464895291" expanded="true" signature="3077:3133" placeholder="select disti... L_HANDOVER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Utils/FileUtil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AlarmController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3499">
+          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding>
+            <marker date="1494464952558" expanded="true" signature="473:577" placeholder="select DISTI... FMA_alarm_list" />
+            <marker date="1494464952558" expanded="true" signature="741:822" placeholder="select Perce... FMA_alarm_list" />
+            <marker date="1494464952558" expanded="true" signature="977:1538" placeholder="select city FMA_alarm_list" />
+            <marker date="1494464952558" expanded="true" signature="5332:5492" placeholder="select date " />
+            <marker date="1494464952558" expanded="true" signature="6855:7327" placeholder="select city FMA_alarm_log" />
+            <marker date="1494464952558" expanded="true" signature="8462:8929" placeholder="select Perce... FMA_alarm_list" />
+            <marker date="1494464952558" expanded="true" signature="9485:10051" placeholder="select Perce... FMA_alarm_list" />
+            <marker date="1494464952558" expanded="true" signature="10983:11468" placeholder="select Perce... FMA_alarm_log" />
+            <marker date="1494464952558" expanded="true" signature="11990:12537" placeholder="select Perce... FMA_alarm_log" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AreaCoverageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1204">
+          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+          <folding>
+            <marker date="1494465004869" expanded="true" signature="757:950" placeholder="select datet... ${$table}" />
+            <marker date="1494465004869" expanded="true" signature="2207:2387" placeholder="select datet... ${$table}" />
+            <marker date="1494465004869" expanded="true" signature="2654:2682" placeholder="select * fro... ${$table}" />
+            <marker date="1494465004869" expanded="true" signature="2879:3073" placeholder="select datet... ${$table}" />
+            <marker date="1494465004869" expanded="true" signature="3857:3885" placeholder="select * fro... ${$table}" />
+            <marker date="1494465004869" expanded="true" signature="4416:4596" placeholder="select datet... ${$table}" />
+            <marker date="1494465004869" expanded="true" signature="6085:6118" placeholder="select disti... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BadCellController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1096">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1494465014598" expanded="true" signature="597:723" placeholder="select city,... badHandoverCell_ex" />
+            <marker date="1494465014598" expanded="true" signature="597:979" placeholder="select city,... " />
+            <marker date="1494465014598" expanded="true" signature="730:850" placeholder="select city,... highLostCell_ex" />
+            <marker date="1494465014598" expanded="true" signature="857:979" placeholder="select city,... lowAccessCell_ex" />
+            <marker date="1494465014598" expanded="true" signature="2243:2380" placeholder="select city,... badHandoverCell_ex" />
+            <marker date="1494465014598" expanded="true" signature="2243:2658" placeholder="select city,... " />
+            <marker date="1494465014598" expanded="true" signature="2387:2518" placeholder="select city,... highLostCell_ex" />
+            <marker date="1494465014598" expanded="true" signature="2525:2658" placeholder="select city,... lowAccessCell_ex" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CellPRBAnalysisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1852">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <marker date="1494465021905" expanded="true" signature="707:790" placeholder="select COLUM... COLUMNS" />
+            <marker date="1494465021905" expanded="true" signature="819:886" placeholder="select * fro... interfereCell" />
+            <marker date="1494465021905" expanded="true" signature="912:978" placeholder="select DISTI... interfereCell" />
+            <marker date="1494465021905" expanded="true" signature="2549:2577" placeholder="select disti... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/checkSybaseConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494317496610" expanded="true" signature="110:136" placeholder="select id fr... users_group" />
+            <marker date="1494317496610" expanded="true" signature="422:463" placeholder="select * fro... ftpServerInfo" />
+            <marker date="1494317496610" expanded="true" signature="1288:1423" placeholder="insert into notification... " />
+            <marker date="1494317496610" expanded="true" signature="1730:1865" placeholder="insert into notification... " />
+            <marker date="1494317496610" expanded="true" signature="2163:2298" placeholder="insert into notification... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CoverageQueryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="501" column="0" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
+          <folding>
+            <marker date="1494465084823" expanded="true" signature="1256:1309" placeholder="select disti... " />
+            <marker date="1494465084823" expanded="true" signature="2517:2574" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="3565:3683" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="3731:3827" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="4915:5032" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="5080:5166" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="6259:6379" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="6427:6523" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="7887:8028" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="9390:9536" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="11529:11586" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="12462:12580" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="12628:12724" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="13697:13814" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="13862:13948" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="14926:15046" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="15094:15190" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="16439:16580" placeholder="select timeS... " />
+            <marker date="1494465084823" expanded="true" signature="17810:17956" placeholder="select timeS... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CsvZipDownloadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexGeographicOverviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <marker date="1494465103818" expanded="true" signature="1097:1311" placeholder="SELECT 最大RRC... SysCoreTemp_cell_day" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InterCloudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding>
+            <marker date="1494465123598" expanded="true" signature="469:516" placeholder="select DISTI... siteLte" />
+            <marker date="1494465123598" expanded="true" signature="1422:1497" placeholder="select connN... databaseconn" />
+            <marker date="1494465123598" expanded="true" signature="2009:2086" placeholder="select DISTI... siteLte" />
+            <marker date="1494465123598" expanded="true" signature="2543:2778" placeholder="select longi... interfereCellQuarter_cell_quarter" />
+            <marker date="1494465123598" expanded="true" signature="2819:3085" placeholder="select longi... interfereCellQuarter_cell_quarter" />
+            <marker date="1494465123598" expanded="true" signature="3599:3627" placeholder="select disti... ${$table}" />
+            <marker date="1494465123598" expanded="true" signature="5150:5389" placeholder="SELECT ratio... mroWeakCoverage" />
+            <marker date="1494465123598" expanded="true" signature="6478:6718" placeholder="SELECT ratio... mroWeakCoverage" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InterCoverRatioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding>
+            <marker date="1494465131805" expanded="true" signature="789:889" placeholder="SELECT 高干扰小区... interfereRate_city_day" />
+            <marker date="1494465131805" expanded="true" signature="1512:1540" placeholder="select disti... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InterfereController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1494465137837" expanded="true" signature="710:850" placeholder="select day_i... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NavController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+          <folding>
+            <marker date="1494465154427" expanded="true" signature="1435:1507" placeholder="select * fro... access_statistics" />
+            <marker date="1494465154427" expanded="true" signature="1748:1808" placeholder="update acces... " />
+            <marker date="1494465154427" expanded="true" signature="1889:1953" placeholder="insert into access_statistics... " />
+            <marker date="1494465154427" expanded="true" signature="2597:2646" placeholder="delete from " />
+            <marker date="1494465154427" expanded="true" signature="2670:2766" placeholder="insert into sessions... " />
+            <marker date="1494465154427" expanded="true" signature="3289:3420" placeholder="UPDATE notif... " />
+            <marker date="1494465154427" expanded="true" signature="3460:3550" placeholder="INSERT INTO notification... " />
+            <marker date="1494465154427" expanded="true" signature="3920:3972" placeholder="select id fr... users_group" />
+            <marker date="1494465154427" expanded="true" signature="4085:4137" placeholder="select * fro... notification" />
+            <marker date="1494465154427" expanded="true" signature="5530:5578" placeholder="select reade... notification" />
+            <marker date="1494465154427" expanded="true" signature="5829:5888" placeholder="update notif... " />
+            <marker date="1494465154427" expanded="true" signature="6274:6322" placeholder="select reade... notification" />
+            <marker date="1494465154427" expanded="true" signature="6596:6655" placeholder="update notif... " />
+            <marker date="1494465154427" expanded="true" signature="7200:7257" placeholder="SELECT menu_... users_group" />
+            <marker date="1494465154427" expanded="true" signature="7369:7422" placeholder="SELECT menu menu_list" />
+            <marker date="1494465154427" expanded="true" signature="7825:7856" placeholder="select id,ty... users_group" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NetworkChartsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8170">
+          <caret line="844" column="13" selection-start-line="844" selection-start-column="13" selection-end-line="844" selection-end-column="13" />
+          <folding>
+            <marker date="1494465296874" expanded="true" signature="843:1055" placeholder="SELECT 100 *... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="1245:1464" placeholder="SELECT 100 *... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="1624:1785" placeholder="SELECT 100 *... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="2215:2454" placeholder="SELECT 100 *... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="2644:2890" placeholder="SELECT 100 *... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="3050:3239" placeholder="SELECT 100 *... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="3726:3930" placeholder="SELECT 100*(... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="4120:4340" placeholder="SELECT 100 *... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="4500:4773" placeholder="SELECT 100*(... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="5202:5433" placeholder="SELECT 100*(... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="5623:5870" placeholder="SELECT 100 *... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="6030:6331" placeholder="SELECT 100*(... EutranCellTddQuarter" />
+            <marker date="1494465296874" expanded="true" signature="6824:6884" placeholder="SELECT * FRO... SysCoreTemp_city_hour" />
+            <marker date="1494465296874" expanded="true" signature="7485:7572" placeholder="SELECT * FRO... SysCoreTemp_city_hour" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NetworkChartsTimerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <marker date="1494465322555" expanded="true" signature="601:661" placeholder="SELECT * FRO... SysCoreTemp_city_hour" />
+            <marker date="1494465322555" expanded="true" signature="820:924" placeholder="SELECT HourI... EutranCellTddQuarter" />
+            <marker date="1494465322555" expanded="true" signature="1039:1143" placeholder="SELECT HourI... EutranCellTddQuarter" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NetworkController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NetworkScaleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="742" column="0" selection-start-line="742" selection-start-column="0" selection-end-line="742" selection-end-column="0" />
+          <folding>
+            <marker date="1494465382637" expanded="true" signature="958:1126" placeholder="select softw... TempSiteVersion" />
+            <marker date="1494465382637" expanded="true" signature="1354:1435" placeholder="select siteT... TempSiteVersion" />
+            <marker date="1494465382637" expanded="true" signature="1616:1861" placeholder="select count... TempSiteVersion" />
+            <marker date="1494465382637" expanded="true" signature="3906:4243" placeholder="select left(... " />
+            <marker date="1494465382637" expanded="true" signature="4693:5222" placeholder="select left(... " />
+            <marker date="1494465382637" expanded="true" signature="5996:6086" placeholder="SELECT count... TempSiteType" />
+            <marker date="1494465382637" expanded="true" signature="7195:7267" placeholder="select DISTI... TempSiteType" />
+            <marker date="1494465382637" expanded="true" signature="7717:7854" placeholder="select siteT... TempSiteType" />
+            <marker date="1494465382637" expanded="true" signature="8629:8774" placeholder="SELECT count... TempParameterRRUAndSlaveCount" />
+            <marker date="1494465382637" expanded="true" signature="9318:9446" placeholder="select DISTI... TempParameterRRUAndSlaveCount" />
+            <marker date="1494465382637" expanded="true" signature="9896:10087" placeholder="select carri... TempParameterRRUAndSlaveCount" />
+            <marker date="1494465382637" expanded="true" signature="10858:10881" placeholder="select * fro... tempBSCCA" />
+            <marker date="1494465382637" expanded="true" signature="11675:11748" placeholder="select num,t... tempBSCCACity" />
+            <marker date="1494465382637" expanded="true" signature="12541:12593" placeholder="select count... ENodeBFunction" />
+            <marker date="1494465382637" expanded="true" signature="13070:13127" placeholder="select count... EUtranCellTDD" />
+            <marker date="1494465382637" expanded="true" signature="13605:13668" placeholder="select sum(s... TempParameterRRUAndSlaveCount" />
+            <marker date="1494465382637" expanded="true" signature="14291:14385" placeholder="select count... ENodeBFunction" />
+            <marker date="1494465382637" expanded="true" signature="15005:15104" placeholder="select count... EUtranCellTDD" />
+            <marker date="1494465382637" expanded="true" signature="15723:15828" placeholder="select sum(s... TempParameterRRUAndSlaveCount" />
+            <marker date="1494465382637" expanded="true" signature="16388:16483" placeholder="select band TempParameterRRUAndSlaveCount" />
+            <marker date="1494465382637" expanded="true" signature="16933:17095" placeholder="select band TempParameterRRUAndSlaveCount" />
+            <marker date="1494465382637" expanded="true" signature="17884:18007" placeholder="select band TempParameterRRUAndSlaveCount" />
+            <marker date="1494465382637" expanded="true" signature="18855:19033" placeholder="select sum(`... SysCoreTemp_city_day" />
+            <marker date="1494465382637" expanded="true" signature="19919:20124" placeholder="select sum(`... SysCoreTemp_city_day" />
+            <marker date="1494465382637" expanded="true" signature="21112:21217" placeholder="select sum(E... EutranCellTddQuarter" />
+            <marker date="1494465382637" expanded="true" signature="21814:21956" placeholder="select sum(E... EutranCellTddQuarter" />
+            <marker date="1494465382637" expanded="true" signature="22993:23145" placeholder="select unitT... AuxPlugInUnit" />
+            <marker date="1494465382637" expanded="true" signature="23956:24051" placeholder="select DISTI... Slot" />
+            <marker date="1494465382637" expanded="true" signature="24501:24697" placeholder="select produ... Slot" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OverlapCoverController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5200">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding>
+            <marker date="1494465414888" expanded="true" signature="747:824" placeholder="select * fro... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="2290:2385" placeholder="select count... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="2504:2589" placeholder="select * fro... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="3347:3375" placeholder="select * fro... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="3906:3983" placeholder="select * fro... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="5456:5489" placeholder="select disti... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="6579:6656" placeholder="select * fro... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="7906:8001" placeholder="select count... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="8121:8205" placeholder="select * fro... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="8977:9005" placeholder="select * fro... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="9536:9638" placeholder="select datet... ${$table}" />
+            <marker date="1494465414888" expanded="true" signature="10257:10290" placeholder="select disti... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OverlapCoverOverviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1933">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494317496547" expanded="true" signature="1088:1399" placeholder="SELECT molec... COUNT" />
+            <marker date="1494317496547" expanded="true" signature="1147:1245" placeholder="SELECT COUNT... mroOverCoverage" />
+            <marker date="1494317496547" expanded="true" signature="1267:1350" placeholder="SELECT COUNT... mroOverCoverage" />
+            <marker date="1494317496547" expanded="true" signature="2293:2350" placeholder="select disti... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OverlappingAcceptorAnalysisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="157" column="19" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
+          <folding>
+            <marker date="1494465452870" expanded="true" signature="1499:1552" placeholder="select ecgi siteLte" />
+            <marker date="1494465452870" expanded="true" signature="1976:2100" placeholder="select * fro... mroInterfereMatrix" />
+            <marker date="1494465452870" expanded="true" signature="2444:2488" placeholder="select * fro... siteLte" />
+            <marker date="1494465452870" expanded="true" signature="2690:2732" placeholder="select * fro... siteLte" />
+            <marker date="1494465452870" expanded="true" signature="3566:3619" placeholder="select ecgi siteLte" />
+            <marker date="1494465452870" expanded="true" signature="3891:3940" placeholder="select ecgi siteLte" />
+            <marker date="1494465452870" expanded="true" signature="4166:4285" placeholder="select * fro... mroInterfereMatrix" />
+            <marker date="1494465452870" expanded="true" signature="4716:4788" placeholder="select disti... mroInterfereMatrix" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OverlappingDonorAnalysisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+          <folding>
+            <marker date="1494465467714" expanded="true" signature="1438:1491" placeholder="select ecgi siteLte" />
+            <marker date="1494465467714" expanded="true" signature="1910:2030" placeholder="select * fro... mroInterfereMatrix" />
+            <marker date="1494465467714" expanded="true" signature="2376:2418" placeholder="select * fro... siteLte" />
+            <marker date="1494465467714" expanded="true" signature="2622:2666" placeholder="select * fro... siteLte" />
+            <marker date="1494465467714" expanded="true" signature="3499:3552" placeholder="select ecgi siteLte" />
+            <marker date="1494465467714" expanded="true" signature="3824:3873" placeholder="select ecgi siteLte" />
+            <marker date="1494465467714" expanded="true" signature="4105:4224" placeholder="select * fro... mroInterfereMatrix" />
+            <marker date="1494465467714" expanded="true" signature="4652:4724" placeholder="select disti... mroInterfereMatrix" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RealTimeInterferenceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1069">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <marker date="1494465480397" expanded="true" signature="614:735" placeholder="SELECT DISTI... interfereCell_Cli" />
+            <marker date="1494465480397" expanded="true" signature="1221:1299" placeholder="SELECT DISTI... interfereCell_Cli" />
+            <marker date="1494465480397" expanded="true" signature="2104:3587" placeholder="SELECT a.cel... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RSRPAnalysisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1431">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <marker date="1494465488672" expanded="true" signature="932:965" placeholder="select disti... ${$table}" />
+            <marker date="1494465488672" expanded="true" signature="2074:2331" placeholder="SELECT s.ecg... *" />
+            <marker date="1494465488672" expanded="true" signature="2162:2225" placeholder="SELECT * FRO... mroWeakCoverage" />
+            <marker date="1494465488672" expanded="true" signature="2239:2279" placeholder="SELECT ecgi,... siteLte" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SingalChartsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <marker date="1494465520321" expanded="true" signature="1072:1134" placeholder="SELECT DISTI... eventSuccess" />
+            <marker date="1494465520321" expanded="true" signature="1585:1819" placeholder="SELECT event... eventSuccess" />
+            <marker date="1494465520321" expanded="true" signature="3184:3389" placeholder="SELECT event... eventSuccess" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SwitchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="701" column="0" selection-start-line="701" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
+          <folding>
+            <marker date="1494465590549" expanded="true" signature="1345:1990" placeholder="select id,ce... SysRelation_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="4330:4857" placeholder="select id,ce... SysRelation_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="8114:8201" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="10460:10547" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="11949:12594" placeholder="select id,ce... SysRelation_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="12943:13030" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="13916:14561" placeholder="select id,ce... SysRelation_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="14910:14997" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="15870:16515" placeholder="select id,ce... SysRelation_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="16864:16951" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="18479:18566" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="20091:20178" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="21047:21574" placeholder="select id,ce... SysRelation_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="21921:22008" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="22861:23388" placeholder="select id,ce... SysRelation_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="23736:23823" placeholder="SELECT * FRO... SysCoreTemp_cell_day" />
+            <marker date="1494465590549" expanded="true" signature="24702:24730" placeholder="select disti... ${$table}" />
+            <marker date="1494465590549" expanded="true" signature="25711:25975" placeholder="SELECT ecgi,... siteLte" />
+            <marker date="1494465590549" expanded="true" signature="26015:26284" placeholder="SELECT ecgi,... siteLte" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4039">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <marker date="1494465599596" expanded="true" signature="1175:1299" placeholder="select count... ParaCheckBaseline" />
+            <marker date="1494465599596" expanded="true" signature="2895:3035" placeholder="select count... ParaCheckBaseline" />
+            <marker date="1494465599596" expanded="true" signature="4623:7227" placeholder="select sum(n... count" />
+            <marker date="1494465599596" expanded="true" signature="4645:4738" placeholder="select count... TempEUtranCellFreqRelation" />
+            <marker date="1494465599596" expanded="true" signature="4769:4884" placeholder="select count... TempEUtranCellRelationUnidirectionalNeighborCell" />
+            <marker date="1494465599596" expanded="true" signature="4915:5030" placeholder="select count... TempEUtranCellRelationExistNeighborCellWithoutX2" />
+            <marker date="1494465599596" expanded="true" signature="5057:5162" placeholder="select count... TempEUtranCellRelationManyNeighborCell" />
+            <marker date="1494465599596" expanded="true" signature="5193:5297" placeholder="select count... TempEUtranCellRelationFewNeighborCell" />
+            <marker date="1494465599596" expanded="true" signature="5328:5439" placeholder="select count... TempExternalEUtranCellTDDActivePlmnListCheck" />
+            <marker date="1494465599596" expanded="true" signature="5470:5569" placeholder="select count... TempEUtranCellRelationNeighOfPci" />
+            <marker date="1494465599596" expanded="true" signature="5600:5704" placeholder="select count... TempEUtranCellRelationNeighOfNeighPci" />
+            <marker date="1494465599596" expanded="true" signature="5735:5833" placeholder="select count... TempGeranCellRelation2GNeighbor" />
+            <marker date="1494465599596" expanded="true" signature="5864:5957" placeholder="select count... TempParameter2GKgetCompare" />
+            <marker date="1494465599596" expanded="true" signature="5988:6074" placeholder="select count... TempExternalNeigh4G" />
+            <marker date="1494465599596" expanded="true" signature="6105:6193" placeholder="select count... TempParameterQCI_A1A2" />
+            <marker date="1494465599596" expanded="true" signature="6224:6320" placeholder="select count... TempParameterQCI_B2A2critical" />
+            <marker date="1494465599596" expanded="true" signature="6351:6452" placeholder="select count... TempTermPointToENB_ENBID_ipAddress" />
+            <marker date="1494465599596" expanded="true" signature="6483:6588" placeholder="select count... TempTermPointToENB_ENBID_usedIpAddress" />
+            <marker date="1494465599596" expanded="true" signature="6619:6707" placeholder="select count... TempTermPointToENB_IP" />
+            <marker date="1494465599596" expanded="true" signature="6738:6832" placeholder="select count... TempTermPointToENB_X2Status" />
+            <marker date="1494465599596" expanded="true" signature="6863:6957" placeholder="select count... TempTermPointToMme_S1_MMEGI" />
+            <marker date="1494465599596" expanded="true" signature="6988:7080" placeholder="select count... TempTermPointToMme_S1_MME" />
+            <marker date="1494465599596" expanded="true" signature="7111:7203" placeholder="select count... TempTermPointToMme_S1_tac" />
+            <marker date="1494465599596" expanded="true" signature="8425:11369" placeholder="select sum(n... count" />
+            <marker date="1494465599596" expanded="true" signature="8447:8557" placeholder="select count... TempEUtranCellFreqRelation" />
+            <marker date="1494465599596" expanded="true" signature="8588:8720" placeholder="select count... TempEUtranCellRelationUnidirectionalNeighborCell" />
+            <marker date="1494465599596" expanded="true" signature="8751:8883" placeholder="select count... TempEUtranCellRelationExistNeighborCellWithoutX2" />
+            <marker date="1494465599596" expanded="true" signature="8910:9032" placeholder="select count... TempEUtranCellRelationManyNeighborCell" />
+            <marker date="1494465599596" expanded="true" signature="9063:9184" placeholder="select count... TempEUtranCellRelationFewNeighborCell" />
+            <marker date="1494465599596" expanded="true" signature="9215:9343" placeholder="select count... TempExternalEUtranCellTDDActivePlmnListCheck" />
+            <marker date="1494465599596" expanded="true" signature="9374:9490" placeholder="select count... TempEUtranCellRelationNeighOfPci" />
+            <marker date="1494465599596" expanded="true" signature="9521:9642" placeholder="select count... TempEUtranCellRelationNeighOfNeighPci" />
+            <marker date="1494465599596" expanded="true" signature="9673:9788" placeholder="select count... TempGeranCellRelation2GNeighbor" />
+            <marker date="1494465599596" expanded="true" signature="9819:9929" placeholder="select count... TempParameter2GKgetCompare" />
+            <marker date="1494465599596" expanded="true" signature="9960:10063" placeholder="select count... TempExternalNeigh4G" />
+            <marker date="1494465599596" expanded="true" signature="10094:10199" placeholder="select count... TempParameterQCI_A1A2" />
+            <marker date="1494465599596" expanded="true" signature="10230:10343" placeholder="select count... TempParameterQCI_B2A2critical" />
+            <marker date="1494465599596" expanded="true" signature="10374:10492" placeholder="select count... TempTermPointToENB_ENBID_ipAddress" />
+            <marker date="1494465599596" expanded="true" signature="10523:10645" placeholder="select count... TempTermPointToENB_ENBID_usedIpAddress" />
+            <marker date="1494465599596" expanded="true" signature="10676:10781" placeholder="select count... TempTermPointToENB_IP" />
+            <marker date="1494465599596" expanded="true" signature="10812:10923" placeholder="select count... TempTermPointToENB_X2Status" />
+            <marker date="1494465599596" expanded="true" signature="10954:11065" placeholder="select count... TempTermPointToMme_S1_MMEGI" />
+            <marker date="1494465599596" expanded="true" signature="11096:11205" placeholder="select count... TempTermPointToMme_S1_MME" />
+            <marker date="1494465599596" expanded="true" signature="11236:11345" placeholder="select count... TempTermPointToMme_S1_tac" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakCoverController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2662">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <marker date="1494465619694" expanded="true" signature="1475:1765" placeholder="SELECT * FRO... ecgi" />
+            <marker date="1494465619694" expanded="true" signature="1491:1562" placeholder="SELECT ecgi,... mroOverCoverage" />
+            <marker date="1494465619694" expanded="true" signature="1576:1692" placeholder="SELECT longi... siteLte" />
+            <marker date="1494465619694" expanded="true" signature="3066:3458" placeholder="SELECT * FRO... ecgi" />
+            <marker date="1494465619694" expanded="true" signature="3081:3456" placeholder="SELECT a.ecg... ecgi" />
+            <marker date="1494465619694" expanded="true" signature="3229:3331" placeholder="select ecgi,... mroWeakCoverage" />
+            <marker date="1494465619694" expanded="true" signature="3345:3437" placeholder="SELECT ecgi,... siteLte" />
+            <marker date="1494465619694" expanded="true" signature="4643:4806" placeholder="SELECT ecgi,... mroWeakCoverage" />
+            <marker date="1494465619694" expanded="true" signature="5677:5710" placeholder="select disti... ${$table}" />
+            <marker date="1494465619694" expanded="true" signature="6702:6735" placeholder="select disti... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakCoverOverviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1494465632681" expanded="true" signature="1121:1383" placeholder="select datet... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakCoverRateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding>
+            <marker date="1494465659285" expanded="true" signature="894:930" placeholder="select * fro... ${$table}" />
+            <marker date="1494465659285" expanded="true" signature="2396:2424" placeholder="select * fro... ${$table}" />
+            <marker date="1494465659285" expanded="true" signature="2954:3031" placeholder="select * fro... ${$table}" />
+            <marker date="1494465659285" expanded="true" signature="3742:3827" placeholder="select * fro... ${$table}" />
+            <marker date="1494465659285" expanded="true" signature="4811:4839" placeholder="select * fro... ${$table}" />
+            <marker date="1494465659285" expanded="true" signature="5357:5434" placeholder="select * fro... ${$table}" />
+            <marker date="1494465659285" expanded="true" signature="6689:6722" placeholder="select disti... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakCoverRatioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2536">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494317496608" expanded="true" signature="1430:1535" placeholder="SELECT COUNT... mroWeakCoverage" />
+            <marker date="1494317496608" expanded="true" signature="1562:1649" placeholder="SELECT COUNT... mroWeakCoverage" />
+            <marker date="1494317496608" expanded="true" signature="2983:3043" placeholder="select disti... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeakoverlapCoverOverviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <marker date="1494465672197" expanded="true" signature="1152:1411" placeholder="select datet... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/KpiExportRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/NetworkChartsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-457">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ScaleExportRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-457">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

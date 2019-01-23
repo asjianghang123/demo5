@@ -1,0 +1,27 @@
+SELECT
+ datetime_id AS DAY,
+            substring(
+                SN,
+                charindex ('=', substring(SN, 32, 25)) + 32,
+                charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+            ) AS subNet,
+            erbs AS location,
+            COUNT(DISTINCT(EutranCellTDD)) AS cellNum,
+            sum(pmRrcConnEstabAtt) AS 'kpi0',
+            sum(pmErabEstabAttInit+pmErabEstabAttAdded) AS 'kpi1',
+            sum(pmCellDowntimeAuto) AS 'kpi2',
+            sum(pmCellDowntimeMan) AS 'kpi3'
+        FROM
+            dc.DC_E_ERBS_EUTRANCELLTDD_raw
+        WHERE
+            datetime_id = '$day'
+        AND substring(
+            SN,
+            charindex ('=', substring(SN, 32, 25)) + 32,
+            charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+        ) IN ($str)
+        AND erbs IN ('$enbId')
+        GROUP BY
+            datetime_id,
+            SN,
+            location

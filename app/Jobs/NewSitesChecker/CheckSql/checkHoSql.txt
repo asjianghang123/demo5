@@ -1,0 +1,138 @@
+SELECT
+	AGG_TABLE0. DAY,
+	AGG_TABLE0.cellNum,
+	AGG_TABLE0.subNet,
+	AGG_TABLE0.location,
+	cast(
+		100 * (
+			0.0000001 + pmHoPrepSuccLteIntraF + pmHoPrepSuccLteInterF
+		) / (
+			0.0000001 + pmHoPrepAttLteIntraF + pmHoPrepAttLteInterF
+		) * (
+			0.0000001 + pmHoExeSuccLteIntraF + pmHoExeSuccLteInterF
+		) / (
+			0.0000001 + pmHoExeAttLteIntraF + pmHoExeAttLteInterF
+		) AS DECIMAL (18, 2)
+	) AS kpi0,
+	cast(
+		(
+			pmHoPrepAttLteInterF - pmHoPrepSuccLteInterF
+		) + (
+			pmHoPrepAttLteIntraF - pmHoPrepSuccLteIntraF
+		) AS DECIMAL (18, 0)
+	) AS kpi1,
+	cast(
+		(
+			pmHoExeAttLteIntraF - pmHoExeSuccLteIntraF
+		) + (
+			pmHoExeAttLteInterF - pmHoExeSuccLteInterF
+		) AS DECIMAL (18, 0)
+	) AS kpi2,
+	cast(
+		100 * (
+			pmErabEstabSuccInitQci_1 + pmErabEstabSuccAddedQci_1
+		) / (
+			pmErabEstabAttInitQci_1 + pmErabEstabAttAddedQci_1
+		) AS DECIMAL (18, 2)
+	) AS kpi3,
+	cast(
+		100 * (
+			pmHoExeSuccLteIntraF + pmHoExeSuccLteInterF
+		) / (
+			pmHoExeAttLteIntraF + pmHoExeAttLteInterF
+		) AS DECIMAL (18, 2)
+	) AS kpi4
+FROM
+	(
+		SELECT
+			CONVERT (CHAR(10), date_id) AS DAY,
+			substring(
+				SN,
+				charindex ('=', substring(SN, 32, 25)) + 32,
+				charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+			) AS subNet,
+			erbs AS location,
+			COUNT(DISTINCT(EutranCellTDD)) AS cellNum,
+			sum(pmHoPrepSuccLteIntraF) AS 'pmHoPrepSuccLteIntraF',
+			sum(pmHoPrepSuccLteInterF) AS 'pmHoPrepSuccLteInterF',
+			sum(pmHoPrepAttLteIntraF) AS 'pmHoPrepAttLteIntraF',
+			sum(pmHoPrepAttLteInterF) AS 'pmHoPrepAttLteInterF',
+			sum(pmHoExeSuccLteIntraF) AS 'pmHoExeSuccLteIntraF',
+			sum(pmHoExeSuccLteInterF) AS 'pmHoExeSuccLteInterF',
+			sum(pmHoExeAttLteIntraF) AS 'pmHoExeAttLteIntraF',
+			sum(pmHoExeAttLteInterF) AS 'pmHoExeAttLteInterF'
+		FROM
+			dc.DC_E_ERBS_EUTRANCELLRELATION_day
+		WHERE
+			date_id = '$day'
+		AND substring(
+			SN,
+			charindex ('=', substring(SN, 32, 25)) + 32,
+			charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+	) IN ($str)
+		AND erbs IN ('$enbId')
+		GROUP BY
+			date_id,
+			SN,
+			location
+	) AS AGG_TABLE0
+LEFT JOIN (
+	SELECT
+		CONVERT (CHAR(10), date_id) AS DAY,
+		substring(
+			SN,
+			charindex ('=', substring(SN, 32, 25)) + 32,
+			charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+		) AS subNet,
+		erbs AS location,
+		COUNT(DISTINCT(EutranCellTDD)) AS cellNum,
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 1 THEN
+				pmErabEstabSuccInitQci
+			ELSE
+				0
+			END
+		) AS 'pmErabEstabSuccInitQci_1',
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 1 THEN
+				pmErabEstabSuccAddedQci
+			ELSE
+				0
+			END
+		) AS 'pmErabEstabSuccAddedQci_1',
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 1 THEN
+				pmErabEstabAttInitQci
+			ELSE
+				0
+			END
+		) AS 'pmErabEstabAttInitQci_1',
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 1 THEN
+				pmErabEstabAttAddedQci
+			ELSE
+				0
+			END
+		) AS 'pmErabEstabAttAddedQci_1'
+	FROM
+		dc.DC_E_ERBS_EUTRANCELLTDD_V_day
+	WHERE
+		date_id = '$day'
+	AND substring(
+		SN,
+		charindex ('=', substring(SN, 32, 25)) + 32,
+		charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+) IN ($str)
+		AND erbs IN ('$enbId')
+	GROUP BY
+		date_id,
+		SN,
+		location
+) AS AGG_TABLE1 ON AGG_TABLE0. DAY = AGG_TABLE1. DAY
+AND AGG_TABLE0.location = AGG_TABLE1.location
+ORDER BY
+	AGG_TABLE0. DAY

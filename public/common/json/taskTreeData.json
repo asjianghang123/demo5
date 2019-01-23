@@ -1,0 +1,19 @@
+[{
+		"id":1,
+		"text":"KGET"
+	},{
+		"id":2,
+		"text":"CTR"
+	},{
+		"id":3,
+		"text":"CDR"
+	},{
+		"id":4,
+		"text":"EBM"
+	},{
+		"id":5,
+		"text":"PCAP"
+	// },{
+	// 	"id":6,
+	// 	"text":"CTRFULL"
+	}]

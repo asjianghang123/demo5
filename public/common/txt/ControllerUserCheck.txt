@@ -1,0 +1,8 @@
+GSMQuery,changzhou,常州,Online
+GSMQuery,wuxi,无锡,Online
+GSMQuery,suzhou,苏州,Online
+GSMQuery,nantong,南通,Online
+GSMQuery,zhenjiang,镇江,Online
+GSMQuery,qingyuan,清远,Local
+GSMQuery,huzhou,湖州,Local
+GSMQuery,lishui,丽水,Local

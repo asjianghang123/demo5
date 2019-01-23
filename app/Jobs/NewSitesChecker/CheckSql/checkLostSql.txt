@@ -1,0 +1,122 @@
+SELECT
+	AGG_TABLE0. DAY,
+	AGG_TABLE0.cellNum,
+	AGG_TABLE0.subNet,
+	AGG_TABLE0.location,
+	cast(
+		100 * pmUeCtxtRelAbnormalEnbAct / (
+			0.0000001 + pmUeCtxtEstabSucc + pmErabLevRopStartQci_9
+		) AS DECIMAL (18, 2)
+	) AS kpi0,
+	cast(
+		pmUeCtxtRelAbnormalEnbAct AS DECIMAL (18, 0)
+	) AS kpi1,
+	cast(
+		100 * pmErabRelAbnormalEnbAct / (
+			pmErabLevRopStartQci_9 + pmErabEstabSuccInit + pmErabEstabSuccAdded
+		) AS DECIMAL (18, 2)
+	) AS kpi2,
+	cast(
+		100 * pmErabRelAbnormalEnbActQci_1 / (
+			pmErabLevRopStartQci_1 + pmErabEstabSuccInitQci_1 + pmErabEstabSuccAddedQci_1
+		) AS DECIMAL (18, 2)
+	) AS kpi3
+FROM
+	(
+		SELECT
+			CONVERT (CHAR(10), date_id) AS DAY,
+			substring(
+				SN,
+				charindex ('=', substring(SN, 32, 25)) + 32,
+				charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+			) AS subNet,
+			erbs AS location,
+			COUNT(DISTINCT(EutranCellTDD)) AS cellNum,
+			sum(pmUeCtxtRelAbnormalEnbAct) AS 'pmUeCtxtRelAbnormalEnbAct',
+			sum(pmUeCtxtEstabSucc) AS 'pmUeCtxtEstabSucc',
+			sum(pmErabRelAbnormalEnbAct) AS 'pmErabRelAbnormalEnbAct',
+			sum(pmErabEstabSuccInit) AS 'pmErabEstabSuccInit',
+			sum(pmErabEstabSuccAdded) AS 'pmErabEstabSuccAdded'
+		FROM
+			dc.DC_E_ERBS_EUTRANCELLTDD_day
+		WHERE
+			date_id = '$day'
+		AND substring(
+			SN,
+			charindex ('=', substring(SN, 32, 25)) + 32,
+			charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+		) IN ($str)
+		AND erbs IN ('$enbId')
+		GROUP BY
+			date_id,
+			SN,
+			location
+	) AS AGG_TABLE0
+LEFT JOIN (
+	SELECT
+		CONVERT (CHAR(10), date_id) AS DAY,
+		substring(
+			SN,
+			charindex ('=', substring(SN, 32, 25)) + 32,
+			charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+		) AS subNet,
+		erbs AS location,
+		COUNT(DISTINCT(EutranCellTDD)) AS cellNum,
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 9 THEN
+				pmErabLevRopStartQci
+			ELSE
+				0
+			END
+		) AS 'pmErabLevRopStartQci_9',
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 1 THEN
+				pmErabRelAbnormalEnbActQci
+			ELSE
+				0
+			END
+		) AS 'pmErabRelAbnormalEnbActQci_1',
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 1 THEN
+				pmErabLevRopStartQci
+			ELSE
+				0
+			END
+		) AS 'pmErabLevRopStartQci_1',
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 1 THEN
+				pmErabEstabSuccInitQci
+			ELSE
+				0
+			END
+		) AS 'pmErabEstabSuccInitQci_1',
+		sum(
+			CASE DCVECTOR_INDEX
+			WHEN 1 THEN
+				pmErabEstabSuccAddedQci
+			ELSE
+				0
+			END
+		) AS 'pmErabEstabSuccAddedQci_1'
+	FROM
+		dc.DC_E_ERBS_EUTRANCELLTDD_V_day
+	WHERE
+		date_id = '$day'
+	AND substring(
+		SN,
+		charindex ('=', substring(SN, 32, 25)) + 32,
+		charindex (',', substring(SN, 32, 25)) - charindex ('=', substring(SN, 32, 25)) - 1
+	) IN ($str)
+		AND erbs IN ('$enbId')
+	GROUP BY
+		date_id,
+		SN,
+		location
+) AS AGG_TABLE1 ON AGG_TABLE0. DAY = AGG_TABLE1. DAY
+AND AGG_TABLE0.location = AGG_TABLE1.location
+ORDER BY
+	AGG_TABLE0. DAY

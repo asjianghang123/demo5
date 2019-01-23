@@ -1,0 +1,38 @@
+{
+    "changzhou" : {
+        "ip" : "10.197.132.34",
+            "port" : "220",
+            "user" : "root",
+            "password" : "ericsson",
+            "fileName" : "CHANGZHOU.txt"
+    },
+    "nantong" : {
+            "ip" : "10.40.51.186",
+            "port" : "220",
+            "user" : "root",
+            "password" : "ericsson",
+            "fileName" : "NANTONG.txt"
+        },
+        "suzhou" : {
+            "ip" : "10.40.28.149",
+            "port" : "220",
+            "user" : "root",
+            "password" : "ericsson",
+            "fileName" : "SUZHOU.txt"
+        },
+        "wuxi" : {
+            "ip" : "10.40.64.96",
+            "port" : "30001",
+            "user" : "root",
+            "password" : "ericsson",
+            "fileName" : "WUXI.txt"
+        },
+        "zhenjiang" : {
+            "ip" : "10.40.83.221",
+            "port" : "220",
+            "user" : "root",
+            "password" : "ericsson",
+            "fileName" : "ZHENJIANG.txt"
+        }
+
+}

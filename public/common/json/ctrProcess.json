@@ -1,0 +1,14 @@
+[
+	{"id":"internalProcRrcConnSetup","text":"INTERNAL_PROC_RRC_CONN_SETUP","value":"1"},
+	{"id":"internalProcS1SigConnSetup","text":"INTERNAL_PROC_S1_SIG_CONN_SETUP","value":"2"},
+	{"id":"internalProcInitialCtxtSetup","text":"INTERNAL_PROC_INITIAL_CTXT_SETUP","value":"3"},
+	{"id":"internalProcUeCtxtRelease","text":"INTERNAL_PROC_UE_CTXT_RELEASE","value":"4"},
+	{"id":"internalProcHoPrepX2In","text":"INTERNAL_PROC_HO_PREP_X2_IN","value":"5"},
+	{"id":"internalProcHoPrepX2Out","text":"INTERNAL_PROC_HO_PREP_X2_OUT","value":"6"},
+	{"id":"internalProcHoExecX2In","text":"INTERNAL_PROC_HO_EXEC_X2_IN","value":"7"},
+	{"id":"internalProcHoExecX2Out","text":"INTERNAL_PROC_HO_EXEC_X2_OUT","value":"8"},
+	{"id":"internalProcHoPrepS1In","text":"INTERNAL_PROC_HO_PREP_S1_IN","value":"9"},
+	{"id":"internalProcHoPrepS1Out","text":"INTERNAL_PROC_HO_PREP_S1_OUT","value":"10"},
+	{"id":"internalProcHoExecS1In","text":"INTERNAL_PROC_HO_EXEC_S1_IN","value":"11"},
+	{"id":"internalProcHoExecS1Out","text":"INTERNAL_PROC_HO_EXEC_S1_OUT","value":"12"}
+]

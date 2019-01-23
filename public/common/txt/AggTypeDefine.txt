@@ -1,0 +1,9 @@
+pmPdcpBitrateDlDrbMax=max
+pmPdcpBitrateUlDrbMin=min
+pmPdcpBitrateUlDrbMax=max
+pmActiveUeUlMax=max
+pmRrcConnMax=max
+pmPdcpBitrateDlDrbMin=min
+pmActiveUeDlMax=max
+pmErabMax=max
+pmPucchSrMax=max

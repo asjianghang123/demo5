@@ -1,0 +1,14 @@
+[{
+	"id":1,
+	"text":"指标邮箱",
+	"attributes":{
+		"flag":"0"
+		}
+	},
+{
+	"id":2,
+	"text":"参数邮箱",
+	"attributes":{
+		"flag":"1"
+		}
+	}]

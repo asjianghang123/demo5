@@ -1,0 +1,7 @@
+.small-box h4, .small-box{
+	font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 16px 0;
+    white-space: nowrap;
+    padding: 0;
+}

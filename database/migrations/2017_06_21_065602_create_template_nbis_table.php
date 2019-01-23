@@ -1,0 +1,33 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateTemplateNbisTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('templateNbi', function (Blueprint $table) {
+            $table->increments('id');
+            $table->text('templateName');
+            $table->string('elementId',1500);
+            $table->string('description',500);
+            $table->string('user',255);
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('templateNbi');
+    }
+}

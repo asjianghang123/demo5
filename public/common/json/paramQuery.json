@@ -1,0 +1,11 @@
+{
+    "moToTable" : {
+        "EUtranFreqRelation_FDD" : "EUtranFreqRelation_2",
+        "EUtranCellRelation_FDD" : "EUtranCellRelation_2"
+    },
+    "tableToMo" : {
+            "EUtranFreqRelation_2" : "EUtranFreqRelation_FDD",
+            "EUtranCellRelation_2" : "EUtranCellRelation_FDD"
+        }
+
+}
